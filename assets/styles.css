@@ -15,7 +15,7 @@ body {
       "pagination"
       "footer";
   height: 100vh;
-  overflow: auto; /* Asegura que el contenido pueda desplazarse */
+  overflow: auto;
 }
 
 .navbar {
@@ -65,9 +65,9 @@ body {
 }
 
 .product img {
-  width: 100%; /* Ajustar ancho completo */
-  height: 300px; /* Altura fija */
-  object-fit: cover; /* Recortar y centrar la imagen */
+  width: 100%; 
+  height: 300px; 
+  object-fit: cover; 
 }
 
 .product-title, .product-price, .ver-button {
@@ -76,18 +76,18 @@ body {
 }
 
 .ver-button {
-  background-color: #004080; /* Fondo azul */
-  color: white; /* Letras blancas */
-  border: none; /* Sin borde */
-  padding: 10px 20px; /* Espaciado interno */
-  text-align: center; /* Centrar texto */
-  text-decoration: none; /* Sin subrayado */
-  display: inline-block; /* Mostrar en línea */
-  font-size: 12px; /* Tamaño de la fuente */
-  margin: 10px auto; /* Margen superior e inferior y centrado horizontal */
-  cursor: pointer; /* Cursor de mano al pasar sobre el botón */
-  border-radius: 5px; /* Bordes redondeados */
-  display: block; /* Asegura que el botón se centre correctamente */
+  background-color: #004080;
+  color: white; 
+  border: none; 
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 12px; 
+  margin: 10px auto; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: block; 
 }
 
 .pagination {
@@ -212,9 +212,9 @@ body {
   }
 
   .product img {
-    width: 100%; /* Ajustar ancho completo */
-    height: 250px; /* Altura fija */
-    object-fit: cover; /* Recortar y centrar la imagen */
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
   }
 
   .pagination {
@@ -232,7 +232,7 @@ body {
   }
 
   .sidebar .footer_sidebar {
-    display: flex; /* Mostrar footer dentro del sidebar */
+    display: flex;
     flex-direction: column;
     align-items: left;
     text-align: left;
@@ -241,8 +241,8 @@ body {
     color: white;
     position: absolute;
     margin-top: 150%;
-    bottom: 2px; /* Posiciona el footer en la parte inferior con un margen inferior de 2px */
-    width: calc(100% - 40px); /* Ajusta el ancho del footer dentro del padding del sidebar */
+    bottom: 2px;
+    width: calc(100% - 40px); 
 }
   
   .footer_sidebar .social-icons {
